@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(235, 232, 215);
+    opacity: 2;
+}
+
+.popup-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+#openPopupBtn,#openRegistrationBtn,#openLoginBtn {
+    padding: 25px;
+    margin-top: 52px;
+    width: 50%;
+    background: #4a8b4a;
+    color: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#openPopupBtn:hover,#openRegistrationBtn:hover,#openLoginBtn:hover {
+    background: #2e552e;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.registration-container,.login-container {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+button.register-button,button.login-button {
+    padding: 15px 0;
+    width:100%;
+    background-color: #538253;
+    color: azure;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button.register-button:hover,button.login-button:hover {
+    background-color: #3a6e3a;
+}
+
+.registration-content,.login-content {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: none;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,select,button {
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+p.info-text {
+    text-align: center;
+}
+
+label,input,select,.register-button,.google-button,.login-button {
+    margin-bottom: 15px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 340px;
+}
+
+h5.agree {
+    text-align: center;
+    color: #888;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img.pic2{
+    height:600px;
+    width:300px;
+}
